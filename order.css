@@ -3,30 +3,34 @@
 }
 
 body {
+    margin: auto;
     background-color: hsl(225, 100%, 94%);
-    margin: 0;
+   
 }
 
-
-.im2 {
-    
-    margin: -240px 30px 40px 450px;
-    border-radius: 15px 15px 0 0;
+.img11 {
+    width: 100%;
+    margin: auto;
 }
 
 .main-div {
     background-color: white;
-    width: 450px;
-    margin: -70px auto 60px auto;
+    width: 400px;
     text-align: center;
-    padding-bottom: 30px;
+    margin: -205px auto 55px auto;
+    height: 100%;
     border-radius: 0 0 15px 15px;
 }
 
 .header {
     color: rgb(13, 13, 43);
-    padding-top: 30px;
 
+
+}
+.im2 {
+    width: 400px;
+    margin: -10px auto 55px auto;
+    border-radius: 15px 15px 0 0;
 
 }
 
@@ -36,11 +40,11 @@ body {
 
 .box-div {
     background-color: hsl(225, 100%, 98%);
-    width: 300px;
-    margin: auto;
     border-radius: 15px;
     display: flex;
     align-items: center;
+    width: 300px;
+    margin-left: 50px;
 }
 
 .header2 {
@@ -75,17 +79,11 @@ body {
     background-color: white;
     margin-top: 20px;
     color: gray;
+    margin-bottom: 20px;
+}
+
+.div-card {
+    margin-top: -30px;
 }
 
 
-@media only screen and (max-width: 800px) {
-     .im2 {width: 450px;
-            margin: auto 15px 32px 17px;}
-     
-}
-
-@media only screen and (max-width: 1000px) {
-    .im2 {width: 450px;
-           margin: auto 0 15px 151px;}
-    
-}
