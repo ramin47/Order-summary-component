@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    margin: 0;
+}
+
+
+.im2 {
+    
+    margin: -240px 30px 40px 450px;
+    border-radius: 15px 15px 0 0;
+}
+
+.main-div {
+    background-color: white;
+    width: 450px;
+    margin: -70px auto 60px auto;
+    text-align: center;
+    padding-bottom: 30px;
+    border-radius: 0 0 15px 15px;
+}
+
+.header {
+    color: rgb(13, 13, 43);
+    padding-top: 30px;
+
+
+}
+
+.parag {
+    color: gray;
+}
+
+.box-div {
+    background-color: hsl(225, 100%, 98%);
+    width: 300px;
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.header2 {
+    color: rgb(13, 13, 43);
+    font-size: 15px;
+}
+
+.parag2 {
+    margin-left: 28px;
+}
+
+.parag3 {
+    color: gray;
+}
+
+.button1 {
+    background-color: hsl(245, 75%, 52%);
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 15px;
+    color: white;
+    border: none;
+    box-shadow: rgb(166, 166, 218);
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 0.5px 1px hsl(245, 75%, 52%);
+}
+
+.button2 {
+    border: none;
+    background-color: white;
+    margin-top: 20px;
+    color: gray;
+}
+
+
+@media only screen and (max-width: 800px) {
+     .im2 {width: 450px;
+            margin: auto 15px 32px 17px;}
+     
+}
+
+@media only screen and (max-width: 1000px) {
+    .im2 {width: 450px;
+           margin: auto 0 15px 151px;}
+    
+}
